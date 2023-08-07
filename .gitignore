@@ -454,3 +454,14 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 .vscode
 vscode
+
+#Pastas
+Properties/
+Desaffio/obj/
+Desaffio/bin/
+
+# Arquivos
+Desaffio.csproj
+Desaffio.sln
+appsettings.Development.json
+appsettings.json
