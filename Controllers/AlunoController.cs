@@ -36,21 +36,5 @@ namespace Desaffio.Controllers
 
             return Ok(aluno);
         }
-
-       
-
-        [HttpDelete("{Id}")]
-        public IActionResult Deletar(int Id)
-        {
-            var AlunoBanco = _context.Alunos.Find(Id);
-
-            if (AlunoBanco == null)
-
-                return NotFound();
-
-            _context.Alunos.Remove(AlunoBanco);
-            _context.SaveChanges();
-            return NoContent();
-        }
     }
 }
